@@ -141,7 +141,7 @@ left: 365px;
   border: none;
 
 }
-ul{
+nav ul{
   background-color: #efe5d0;
   margin: 10px 10px 0px 10px;
   list-style: none;
@@ -152,16 +152,21 @@ ul li{
   display:inline;
   padding: 5px 10px 5px 10px;
 }
-ul li a:link,ul li a:visited{
+nav ul li nav a:link,ul li a:visited{
   color: #954b4b;
   border-bottom: none;
   font-weight: bold;
 }
-ul li.select{
+ nav ul li.select{
   background-color: #c8b99c;
 }
 header.top{
   background-color: #675c47;
   margin: 10px 10px 0 10px;
   height: 108px;
+}
+nav{
+  background-color: #efe5d0;
+  margin: 10px 10px 0px 10px;
+
 }
