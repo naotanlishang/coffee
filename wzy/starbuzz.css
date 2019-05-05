@@ -5,17 +5,14 @@ body {
   margin:           0px;
 }
 
-header {
+#header {
   background-color: #675c47;
   margin:           10px 10px 0px 10px;
   height:           108px;
   background-image:url()
 }
-header img#hearderSlogan{
-  float:right;
-}
 
-section#main,section#blog {
+#main {
   display:table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
@@ -25,7 +22,7 @@ section#main,section#blog {
   vertical-align: top;
 }
 
-aside {
+#sidebar {
   display:table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
@@ -35,7 +32,7 @@ aside {
   
 }
 
-footer {
+#footer {
   background-color: #675c47;
   color:            #efe5d0;
   text-align:       center;
@@ -97,7 +94,7 @@ div#tableRow{
 }
 
 
-section#drinks{
+#drinks{
  display: table-cell;
   background-color: #efe5d0;
   width:20%;
@@ -129,44 +126,6 @@ left: 365px;
 .VIP{
   position: fixed;
   top: 350px;
-  left:-200px;
+  left:-90px;
+}
 
-  transition: all 1s linear;
-
-}
-.VIP:hover{
-  left: 0px;
-}
-.VIP{
-  border: none;
-
-}
-nav ul{
-  background-color: #efe5d0;
-  margin: 10px 10px 0px 10px;
-  list-style: none;
-  padding: 5px 0px 5px 0px;
-
-}
-ul li{
-  display:inline;
-  padding: 5px 10px 5px 10px;
-}
-nav ul li nav a:link,ul li a:visited{
-  color: #954b4b;
-  border-bottom: none;
-  font-weight: bold;
-}
- nav ul li.select{
-  background-color: #c8b99c;
-}
-header.top{
-  background-color: #675c47;
-  margin: 10px 10px 0 10px;
-  height: 108px;
-}
-nav{
-  background-color: #efe5d0;
-  margin: 10px 10px 0px 10px;
-
-}
